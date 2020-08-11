@@ -5,6 +5,10 @@ Using the jQueryFileUpload from blueimp in CakePHP 2.1.x
 You can find the documentation [here][fileupload]
 [fileupload]: https://github.com/blueimp/jQuery-File-Upload
 
+### Install
+```
+composer require gildonei/cakephp_file_upload:dev-master
+```
 
 #### [Demo][]
 [Demo]: http://blueimp.github.com/jQuery-File-Upload/
