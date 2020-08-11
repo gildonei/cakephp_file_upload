@@ -1,0 +1,26 @@
+{
+    "name": "gildonei/cakephp_file_upload",
+    "description": "CakePHP Plugin to upload files using jquery plugin Blueimp File Upload",
+    "keywords": ["php", "file upload", "cakephp"],
+    "type": "cakephp-plugin",
+    "homepage": "https://github.com/gildonei/cakephp_file_upload",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Blueimp",
+            "site": "https://github.com/blueimp/jQuery-File-Upload"
+        }, {
+            "name": "Gildonei Mendes A. Junior",
+            "email": "gildonei.mendes@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "config": {
+        "vendor-dir": "Plugin/"
+    },
+    "autoload": {
+        "psr-4": {"FileUpload\\": "/"}
+    }
+}
